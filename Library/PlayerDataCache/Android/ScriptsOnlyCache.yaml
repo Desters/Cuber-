@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - Barrier
     - Counter
     - InPlay
+    - MusicPlayer
     - PlayerMover
     - Spawner
     - SpawnerMover
@@ -75,60 +76,66 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1602}
+      Script: {instanceID: 1598}
     - Class: 114
-      Script: {instanceID: 1826}
+      Script: {instanceID: 1822}
     - Class: 114
-      Script: {instanceID: 1976}
+      Script: {instanceID: 1972}
     - Class: 114
-      Script: {instanceID: 1988}
+      Script: {instanceID: 1984}
     - Class: 114
-      Script: {instanceID: 2024}
+      Script: {instanceID: 2020}
     - Class: 114
-      Script: {instanceID: 2054}
+      Script: {instanceID: 2050}
     - Class: 114
-      Script: {instanceID: 2412}
+      Script: {instanceID: 2408}
     - Class: 114
-      Script: {instanceID: 2440}
+      Script: {instanceID: 2436}
     - Class: 114
-      Script: {instanceID: 2462}
+      Script: {instanceID: 2458}
     - Class: 114
-      Script: {instanceID: 2774}
+      Script: {instanceID: 2770}
     - Class: 114
-      Script: {instanceID: 2806}
+      Script: {instanceID: 2802}
     - Class: 114
-      Script: {instanceID: 2968}
+      Script: {instanceID: 2964}
     - Class: 114
-      Script: {instanceID: 3012}
+      Script: {instanceID: 3008}
     - Class: 114
-      Script: {instanceID: 3162}
+      Script: {instanceID: 3158}
     - Class: 114
-      Script: {instanceID: 3230}
+      Script: {instanceID: 3226}
     - Class: 114
-      Script: {instanceID: 3358}
+      Script: {instanceID: 3354}
     - Class: 114
-      Script: {instanceID: 3422}
+      Script: {instanceID: 3418}
     - Class: 114
-      Script: {instanceID: 3446}
+      Script: {instanceID: 3442}
     - Class: 114
-      Script: {instanceID: 3576}
+      Script: {instanceID: 3572}
     - Class: 114
-      Script: {instanceID: 3806}
+      Script: {instanceID: 3802}
     - Class: 114
-      Script: {instanceID: 3848}
+      Script: {instanceID: 3844}
     - Class: 114
-      Script: {instanceID: 3948}
+      Script: {instanceID: 3944}
     - Class: 114
-      Script: {instanceID: 3966}
+      Script: {instanceID: 3962}
     - Class: 114
-      Script: {instanceID: 3972}
+      Script: {instanceID: 3968}
     - Class: 114
-      Script: {instanceID: 4090}
+      Script: {instanceID: 4086}
+    - Class: 114
+      Script: {instanceID: 16374}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -728,6 +735,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: AmbientOcclusion
+  - hash:
+      serializedVersion: 2
+      Hash: e489915cbb6df24b7047186174620e59
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MusicPlayer
   platform: 13
   scenePathNames:
   - Assets/Main.unity

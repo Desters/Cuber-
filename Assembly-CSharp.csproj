@@ -43,6 +43,7 @@
      <Compile Include="Assets\Script\Spawner.cs" />
      <Compile Include="Assets\Script\Swiper.cs" />
      <Compile Include="Assets\Script\InPlay.cs" />
+     <Compile Include="Assets\Script\MusicPlayer.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
@@ -631,6 +632,9 @@
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>D:/Unity/Gravity/Runny/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+        <HintPath>D:/Unity/Gravity/Runny/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Notifications">
         <HintPath>D:/Unity/Gravity/Runny/Library/ScriptAssemblies/Unity.Notifications.dll</HintPath>
     </Reference>
@@ -652,6 +656,9 @@
     <Reference Include="Unity.TextMeshPro">
         <HintPath>D:/Unity/Gravity/Runny/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+        <HintPath>D:/Unity/Gravity/Runny/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>D:/Unity/Gravity/Runny/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
@@ -666,12 +673,6 @@
     </Reference>
     <Reference Include="Unity.Notifications.iOS">
         <HintPath>D:/Unity/Gravity/Runny/Library/ScriptAssemblies/Unity.Notifications.iOS.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-        <HintPath>D:/Unity/Gravity/Runny/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-        <HintPath>D:/Unity/Gravity/Runny/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

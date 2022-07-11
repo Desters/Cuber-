@@ -11,7 +11,7 @@ public class PlayerMover : MonoBehaviour
     {
 
     }
-    //Проверка на прикосновение
+    
     private void OnTriggerEnter(Collider other)
     {
         if(other.name == "Barrier(Clone)")
@@ -20,7 +20,7 @@ public class PlayerMover : MonoBehaviour
             Counter.ScoreNumber = 0;
         }
     }
-    //Патерны местоположения
+    
     private static Vector3 upPosition = new Vector3(0, 1, -9);
     private static Vector3 downPosition = new Vector3(0, -1, -9);
     private static Vector3 leftPosition = new Vector3(-1, 0, -9);
